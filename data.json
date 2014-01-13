@@ -1,0 +1,33 @@
+[
+   { "make":"Hyundai",
+     "model":"Genesis",
+     "info":"71000 Km, Manual, Petrol, ABS,Air bags,Aircon,Alarm,Electric Windows,Radio "		
+	},
+	
+	
+    { "make":"Ford",
+      "model":"Edge",
+      "info":"71000 Km, Manual, Petrol, ABS,Air bags,Aircon,Alarm,Electric Windows,Radio "		
+ 	},	
+	
+	
+    { "make":"BMW",
+      "model":"X6",
+      "info":"71000 Km, Manual, Petrol, ABS,Air bags,Aircon,Alarm,Electric Windows,Radio "		
+ 	},	
+	
+    { "make":"Jeep",
+      "model":"Grand Cherokee",
+      "info":"71000 Km, Manual, Petrol, ABS,Air bags,Aircon,Alarm,Electric Windows,Radio "		
+ 	},	
+	
+    { "make":"Infiniti",
+      "model":"Q30 Concept",
+      "info":"71000 Km, Manual, Petrol, ABS,Air bags,Aircon,Alarm,Electric Windows,Radio "		
+ 	}
+	
+	
+	
+	
+	
+]

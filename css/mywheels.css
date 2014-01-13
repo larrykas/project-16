@@ -1,0 +1,207 @@
+body{
+	background:#DAD7C7;
+
+}
+#searcharea{
+	
+	margin: 0 auto;
+	text-align: center;
+	background: #BF996B;
+	padding: 10px;
+	width: 30%;
+	height: 75%;
+	border-align: left;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+#searcharea label{
+	
+	font: bold 1.3em Arial;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	color: #A61C1C;
+}
+
+#searcharea p{
+	
+	margin: 0;
+	line-height: 1em;
+	padding-bottom: 5px;
+}
+
+#searcharea input{
+	width: 80%;
+	text-align: center;
+}
+
+#update {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	width: 70%;
+	margin: 0 auto;
+	border-top: 1px dotted #CCC;
+	
+}
+
+#update ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#update ul li {
+	width: 100%;
+	padding: 0 20px;
+	background: #EEE;
+	padding-bottom: 10px;
+	height: 110px;
+	overflow: hidden;
+	border-bottom: 1px dotted #CCC;
+	
+	-webkit-animation: myanim 1s;
+	-moz-animation: myanim 1s;
+	-o-animation: myanim 1s;
+	animation: myanim 1s;
+	
+	-webkit-transition: height 0.3s ease-out;
+	-moz-transition: height 0.3s ease-out;
+	-o-transition: height 0.3s ease-out;
+	transition: height 0.3s ease-out;
+	
+}
+
+#update li:hover {
+	background: #FFFCE5;
+	min-height: 110px;
+	height: 250px;
+	overflow: visible;
+}
+
+#update h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	padding-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #BF5841;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 10px;	
+}
+
+#update img {
+	float: left;
+	width: 80px;
+	margin-right: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 1px dotted #CCC;
+}
+
+@-webkit-keyframes myanim {
+	0% {opacity: 0.3;}
+	100% {opacity: 1.0;}
+}
+
+@-moz-keyframes myanim {
+	0% {opacity: 0.3;}
+	100% {opacity: 1.0;}
+}
+
+@-o-keyframes myanim {
+	0% {opacity: 0.3;}
+	100% {opacity: 1.0;}
+}
+
+@keyframes myanim {
+	0% {opacity: 0.3;}
+	100% {opacity: 1.0;}
+}
+/* This is the very first picture */
+
+ div.gen
+{
+	margin:5px;
+	padding: 5px;
+	border:1px solid #0000ff;
+	height:auto;
+	width:auto;
+	float:right;
+	text-align:center;	
+}
+
+#tabs{ 
+    padding:0; 
+    margin:0; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:12px; 
+    color:#FFF; 
+    font-weight:bold; 
+} 
+#tabs ul{ 
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+} 
+#tabs ul li{ 
+    display:inline; 
+    margin:0; 
+    text-transform:capitalize; 
+} 
+#tabs ul li a{ 
+    padding:5px 16px; 
+    color:#FFF; 
+    background:#E7A272; 
+    float:left; 
+    text-decoration:none; 
+    border:1px solid #D17B40; 
+    border-left:0; 
+    margin:0; 
+    text-transform:capitalize; 
+} 
+#tabs ul li a:hover{ 
+    background:#EAEAEA; 
+    color:#7F9298; 
+    text-decoration:none; 
+    border-bottom:1px solid #EAEAEA; 
+} 
+#tabs ul li a.active{ 
+    background:#EAEAEA; 
+    color:#7F9298; 
+    border-bottom:1px solid #EAEAEA; 
+} 
+#content{    
+    background:#EAEAEA; 
+    clear:both; 
+    font-size:11px; 
+    color:#000; 
+    padding:10px; 
+    font-family:Arial, Helvetica, sans-serif; 
+} 
+
+##################################################
+
+@keyframes genFadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#gen img.top {
+animation-name: genFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
